@@ -13,5 +13,6 @@ the-chinese-room/
 │   ├── outside.py              # Q&A interface
 │   ├── room.py                 # Inside logic (reference table)
 ├── main.py                     # Main source code
-├── requirements.txt
 └── README.md
+```
+
