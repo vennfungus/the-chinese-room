@@ -11,7 +11,7 @@ the-chinese-room/
 │   ├── rules.json              # The room's "rulebook"
 │   ├── llm_compare.py          # Compare to real LLM
 │   ├── outside.py              # Q&A interface
-│   ├── room.py                 # Inside logic (reference table)
+│   └── room.py                 # Inside logic (reference table)
 ├── main.py                     # Main source code
 └── README.md
 ```
