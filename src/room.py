@@ -1,4 +1,5 @@
 import json
+import os
 import re
 
 class ChineseRoom:
@@ -7,7 +8,9 @@ class ChineseRoom:
     with no semantics or understanding.
     """
 
-    def __init__(self, rules_path="rules.json"):
+    def __init__(self, rules_path=None):
+        if rules_path is None:
+            rules_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "rules.json")
         with open(rules_path, "r", encoding="utf-8") as f:
             self.rules = json.load(f)
         self.log = []

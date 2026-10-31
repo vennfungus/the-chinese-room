@@ -1,3 +1,9 @@
+import io
+import sys
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
+
 from src.room import ChineseRoom
 from src.outside import Outsider
 
@@ -10,7 +16,7 @@ BANNER = r"""
 
 def main():
     print(BANNER)
-    room = ChineseRoom("rules.json")
+    room = ChineseRoom()
     outsider = Outsider(room)
 
     print("You are an outsider to the room. Please type your question in Chinese.")
