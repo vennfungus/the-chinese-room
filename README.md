@@ -1,8 +1,14 @@
-# The Chinese Room Argument
+# The Chinese Room
 
-The Chinese room argument holds that a computer executing a program cannot have a mind, understanding, or consciousness, regardless of how intelligently or human-like the program may make the computer behave (Wikipedia), being presented in 1980 by the American philosopher John Searle.Precursor arguments had been made by Gottfried Wilhelm Leibniz, Peter Winch, Anatoly Dneprov, et al.; Searle's version has been discussed in the years since, widely.
+The Chinese Room argument is the concept about a thought experiment described by philosopher of John Searle, 1980.
 
-In this repo, I considered to construct a project of Python that mimics the "Chinese Room", demonstrate the main concept of Searle, clearly.
+The discrete concent had been made by Gottfried Leibniz, Peter Winch, and mores. Main idea mimics:
+- A room with one American (or anywhere, who exactly know nothing about chinese language).
+- A set of tools: a book of instruction manual and box(es) which is full of chinese text.
+    - The book includes guildline following the format of table such: `if getting ... then ...`
+- Process of interaction: The people outside gives a question, the man inside the room looks up inside the book, combines words and responds.
+
+In this repository, considered constructing a Python project which simulates "Chinese Room", demonstrate the main concept of Searle, comprehensibly.
 
 ## Project structure:
 
@@ -17,8 +23,14 @@ the-chinese-room/
 └── README.md
 ```
 
-## Testing:
+## Installation and Testing
 
-Run with the following command to deny failures in printing chinese
-`py -X utf8 main.py`
+```bash
+git clone https://github.com/vennfungus/the-chinese-room.git
+cd game-of-life
+```
+
+To deny  failures in printing chinese alphabet, run with the following command:
+- `py -X utf8 main.py`      | on Windows
+- `python3 -X utf8 main.py` | on MacOS, Linux
 
