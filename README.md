@@ -2,7 +2,7 @@
 
 The Chinese Room argument is the concept about a thought experiment described by philosopher of John Searle, 1980.
 
-The discrete concent had been made by Gottfried Leibniz, Peter Winch, and mores. Main idea mimics:
+The discrete content had been made by Gottfried Leibniz, Peter Winch, and mores. Main idea mimics:
 - A room with one American (or anywhere, who exactly know nothing about chinese language).
 - A set of tools: a book of instruction manual and box(es) which is full of chinese text.
     - The book includes guildline following the format of table such: `if getting ... then ...`
