@@ -34,3 +34,5 @@ To deny  failures in printing chinese alphabet, run with the following command:
 - `py -X utf8 main.py`      | on Windows
 - `python3 -X utf8 main.py` | on MacOS, Linux
 
+## Roadmap
+By the time this repository idea has built, I consider to mimic the origin though experiment. By which time training dataset for constructing a LM will be done, comparsion with a strong-AI should be implemented for showing off full notion of the theory.
